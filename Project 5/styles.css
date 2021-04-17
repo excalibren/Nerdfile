@@ -1,0 +1,82 @@
+ul {list-style-type: none;}
+body {
+  font-family: Verdana, sans-serif;
+
+}
+
+
+.month {
+  
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+  padding: 80px 0;
+  width: 100%;
+  background: #e6d177bd;
+  text-align: center;
+}
+
+.month ul {
+  margin: 0;
+  padding: 0;
+}
+
+.month ul li {
+  color: white;
+  font-size: 20px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  
+}
+
+.month .prev {
+  float: left;
+  padding-top: 10px;
+}
+
+.month .next {
+  float: right;
+  padding-top: 10px;
+}
+
+.weekdays {
+  margin: 0;
+  padding: 10px 0;
+  background-color:rgb(255, 255, 255);
+ 
+}
+
+.weekdays li {
+  display: inline-block;
+  width: 13.6%;
+  color: rgb(33, 80, 52);
+  text-align: center;
+}
+
+.days {
+  font-size: 20px;
+  padding: 10px 0;
+  background: rgb(235, 202, 202);
+  margin: 0;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+.days li {
+  list-style-type: none;
+  display: inline-block;
+  width: 13.6%;
+  text-align: center;
+  margin-bottom: 5px;
+  font-size:12px;
+  color: rgb(33, 80, 52);
+  
+}
+
+
+.days li .active {
+  padding: 5px;
+  background: #e6d177bd;
+  color: white !important
+}
+
+img {
+  max-width: 100%;
+}
